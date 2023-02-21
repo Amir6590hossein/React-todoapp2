@@ -7,7 +7,7 @@ export default function AllTask() {
 
   return (
     <div>
-      <ul>
+      <ul >
       {Alltask.map((p) => (
         <li key={p.id}><ShowTask
           name={p.name}

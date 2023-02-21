@@ -6,7 +6,7 @@ export default function ShowTask({name,Description,checked,id}) {
   const{completed,incomplete,delete_Task}=useContext(Contex)
   return (
 
-  <div>
+  <div className='Task'  >
 <span>{name}</span>
 <span>........{Description}</span>
 

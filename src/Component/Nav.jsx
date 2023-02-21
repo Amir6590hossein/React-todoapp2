@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom'
 export default function Nav() {
   return (
     <div>
-     <nav>
+     <nav className='nav nav-pills justify-content-center'>
 <ul>
-  <li>
+  <li className='nav-item'>
 <NavLink  to="/inComplete">
 
    inComplete

@@ -12,7 +12,7 @@ import Contex from './Contex/Contex';
 export default function App() {
   const{Create_Button,Create_Boolean}=useContext(Contex)
   return (
-    <div>
+    <div style={{textAlign:'center' ,listStyleType:'none'}} className="All">
     <Global>
      <Nav/>
 
