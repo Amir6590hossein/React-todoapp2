@@ -2,9 +2,14 @@ import { createContext } from "react";
 
 const Contex=createContext({
     Alltask:[],
-    input:()=>{},
+    input_name:()=>{},
+    input_Description:()=>{},
     create:()=>{},
-    delete:()=>{},
+    delete_Task:()=>{},
+    completed:()=>{},
+    incomplete:()=>{},
+    Create_Button:()=>{},
+    Create_Boolean:false
     
 })
 export default Contex
